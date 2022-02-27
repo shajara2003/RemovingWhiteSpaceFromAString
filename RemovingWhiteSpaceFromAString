@@ -1,0 +1,13 @@
+package RemoveAllWhiteSpaceFromAString;
+
+public class RemoveAllWhiteSpaceFromAString {
+
+  public static void main(String[] args) {
+   
+String str = "  IN COM PRE HEN SI BI LI TI ES ";
+String str1 = str.replaceAll("\\s", "");
+System.out.println(str1);
+
+}
+
+}
